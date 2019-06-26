@@ -1,0 +1,15 @@
+<div>
+  <h3>Editar Produto</h3>
+</div>
+<form class="example-container" [formGroup]="airplaneForm" (ngSubmit)="upateAirplane(airplaneForm.value)">
+  <mat-form-field>
+    <input matInput name="code" placeholder="Código do Avião" formControlName="code">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="numberPassengers" placeholder="Número de Passageiros" formControlName="numberPassengers">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput name="model" placeholder="Modelo do Avião" formControlName="model">
+  </mat-form-field>
+  <button type="submit" [disabled]="!airplaneForm.valid" mat-button color="primary">Editar</button>
+</form>

@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{78286681-97C3-40CF-96E5-A2C53B04BF4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{36BEFA5E-59C5-465D-B56C-EDBF6E65DF38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{0BF440D7-BC65-4C28-887E-9FEFF6D8D866}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{D5F0F6CF-0881-42DD-B91B-199E0D70638F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{0C4D905A-1ED3-4280-A548-90CC62E6F3E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{403636AC-7776-41E9-9C52-A091504190D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolAirCrafts.Domain", "GolAirCrafts.Domain\GolAirCrafts.Domain.csproj", "{C7C8CCCD-CCFA-4227-B60A-64D1A35A9264}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolAirCrafts.Service", "GolAirCrafts.Service\GolAirCrafts.Service.csproj", "{5C3498A9-6174-4D13-997D-FF95C3F1C4EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolAirCrafts.Infra.Data", "GolAirCrafts.Infra.Data\GolAirCrafts.Infra.Data.csproj", "{E0B13A13-55DB-4ADB-82F7-7FF93A54D0AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolAirCrafts.Infra.CrossCutting", "GolAirCrafts.Infra.CrossCutting\GolAirCrafts.Infra.CrossCutting.csproj", "{08A0DE63-BCEA-42BD-8049-553DC6A89FC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolAirCrafts.Application", "GolAirCrafts.Application\GolAirCrafts.Application.csproj", "{98051765-8294-4645-BF1E-B533E35EBFC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GolAirCrafts.Front", "..\GolAirCrafts.Front\GolAirCrafts.Front\GolAirCrafts.Front.csproj", "{E7CA9425-17A1-4B5D-BCB6-0B9D1C67A469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolAirCrafts.NewFront", "..\GolAirCrafts.NewFront\GolAirCrafts.NewFront\GolAirCrafts.NewFront.csproj", "{2E552A2F-08DF-4657-BA2F-66651999DC77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C8CCCD-CCFA-4227-B60A-64D1A35A9264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C8CCCD-CCFA-4227-B60A-64D1A35A9264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C8CCCD-CCFA-4227-B60A-64D1A35A9264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C8CCCD-CCFA-4227-B60A-64D1A35A9264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3498A9-6174-4D13-997D-FF95C3F1C4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3498A9-6174-4D13-997D-FF95C3F1C4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3498A9-6174-4D13-997D-FF95C3F1C4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3498A9-6174-4D13-997D-FF95C3F1C4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B13A13-55DB-4ADB-82F7-7FF93A54D0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B13A13-55DB-4ADB-82F7-7FF93A54D0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B13A13-55DB-4ADB-82F7-7FF93A54D0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B13A13-55DB-4ADB-82F7-7FF93A54D0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A0DE63-BCEA-42BD-8049-553DC6A89FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A0DE63-BCEA-42BD-8049-553DC6A89FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A0DE63-BCEA-42BD-8049-553DC6A89FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A0DE63-BCEA-42BD-8049-553DC6A89FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98051765-8294-4645-BF1E-B533E35EBFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98051765-8294-4645-BF1E-B533E35EBFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98051765-8294-4645-BF1E-B533E35EBFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98051765-8294-4645-BF1E-B533E35EBFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CA9425-17A1-4B5D-BCB6-0B9D1C67A469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CA9425-17A1-4B5D-BCB6-0B9D1C67A469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CA9425-17A1-4B5D-BCB6-0B9D1C67A469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CA9425-17A1-4B5D-BCB6-0B9D1C67A469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E552A2F-08DF-4657-BA2F-66651999DC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E552A2F-08DF-4657-BA2F-66651999DC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E552A2F-08DF-4657-BA2F-66651999DC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E552A2F-08DF-4657-BA2F-66651999DC77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C4D905A-1ED3-4280-A548-90CC62E6F3E8} = {D5F0F6CF-0881-42DD-B91B-199E0D70638F}
+		{403636AC-7776-41E9-9C52-A091504190D5} = {D5F0F6CF-0881-42DD-B91B-199E0D70638F}
+		{C7C8CCCD-CCFA-4227-B60A-64D1A35A9264} = {36BEFA5E-59C5-465D-B56C-EDBF6E65DF38}
+		{5C3498A9-6174-4D13-997D-FF95C3F1C4EF} = {0BF440D7-BC65-4C28-887E-9FEFF6D8D866}
+		{E0B13A13-55DB-4ADB-82F7-7FF93A54D0AA} = {0C4D905A-1ED3-4280-A548-90CC62E6F3E8}
+		{08A0DE63-BCEA-42BD-8049-553DC6A89FC8} = {403636AC-7776-41E9-9C52-A091504190D5}
+		{98051765-8294-4645-BF1E-B533E35EBFC4} = {78286681-97C3-40CF-96E5-A2C53B04BF4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DC0B8A5-5AA5-4A9D-BB50-5D448BB5C7CB}
+	EndGlobalSection
+EndGlobal

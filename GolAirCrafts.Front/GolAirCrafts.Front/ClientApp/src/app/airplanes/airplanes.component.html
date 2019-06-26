@@ -1,0 +1,33 @@
+<div>
+  <h3>Lista de Aviões</h3>
+</div>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="code">
+    <th mat-header-cell *matHeaderCellDef> Código </th>
+    <td mat-cell *matCellDef="let element"> {{element.code}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="model">
+    <th mat-header-cell *matHeaderCellDef> Modelo </th>
+    <td mat-cell *matCellDef="let element"> {{element.model}} </td>
+  </ng-container>
+
+  <!-- <ng-container matColumnDef="numberPassengers">
+    <th mat-header-cell *matHeaderCellDef> Número de Assentos </th>
+    <td mat-cell *matCellDef="let element"> {{element.numberPassengers}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="creationDate">
+    <th mat-header-cell *matHeaderCellDef> Data da Criação </th>
+    <td mat-cell *matCellDef="let element"> {{element.creationDate | date: 'dd/MM/yyyy' }} </td>
+  </ng-container> -->
+
+  <ng-container matColumnDef="detalhe">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let element"> <button mat-flat-button color="accent"
+        routerLink="/airplane-detail/{{element.id}}" selected>Detalhe</button></td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
