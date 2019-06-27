@@ -9,14 +9,19 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
-
+import { AirplanesComponent } from './airplanes/airplanes.component';
+import { AirplanesEditarComponent } from './airplanes-editar/airplanes-editar.component';
+import { AirplanesNovoComponent } from './airplanes-novo/airplanes-novo.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    AirplanesComponent,
+    AirplanesEditarComponent,
+    AirplanesNovoComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -26,6 +31,9 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'airplanes', component: AirplanesComponent },
+      { path: 'airplanes-editar', component: AirplanesEditarComponent },
+      { path: 'airplanes-novo', component: AirplanesNovoComponent },
     ])
   ],
   providers: [],
